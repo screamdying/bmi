@@ -63,7 +63,10 @@ class BmiResultScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "BMI CALCULATOR",
-          style: GoogleFonts.permanentMarker(),
+          style: GoogleFonts.permanentMarker(
+            fontSize: 25,
+            color: Colors.white,
+          ),
         ),
       ),
       body: Column(
@@ -75,7 +78,7 @@ class BmiResultScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
             ),
